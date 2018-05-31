@@ -12,9 +12,7 @@ for (let i = 0; i < scores.length; i++) {
 
     switch (true) {
       case  (scores[i] > 50 && scores[i] <= 60):
-      grades.F++  
-      console.log("hi");
-      
+      grades.F++ 
         break;
       
       case (scores[i] > 60 && scores[i] <= 70):
